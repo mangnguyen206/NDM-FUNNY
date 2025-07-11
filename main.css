@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.text {
+  position: absolute;
+  color: red;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 90%;
+  }
+  50% {
+    top: 90%;
+    left: 90%;
+  }
+  75% {
+    top: 90%;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
